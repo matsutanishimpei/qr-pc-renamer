@@ -1,0 +1,13 @@
+# すべてのファイルとフォルダをデフォルトで除外
+*
+
+# フォルダ構造をたどれるようにフォルダは除外から外す
+!*/
+
+# 必要なファイルだけを明示的に許可（含めるファイル）
+!*.rs
+!Cargo.toml
+!Cargo.lock
+!run_renamer_qr.bat
+!README.md
+!.gitignore
